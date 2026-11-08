@@ -5,6 +5,7 @@ simulation/
 *.vvp
 *.vcd
 *.bak
+lab1_nativelink_simulation.rpt
 
 output_files/*
 !output_files/lab1.sof
