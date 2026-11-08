@@ -4,9 +4,8 @@ greybox_tmp/
 simulation/
 *.vvp
 *.vcd
-*.rpt
+*.bak
 
-# Игнорируем всё в output_files, кроме прошивки и выбранных отчетов
 output_files/*
 !output_files/lab1.sof
 !output_files/lab1.fit.rpt
