@@ -1,2 +1,2 @@
-name = input("Введите имя студента 304 кафедры: ")
-print(f"Hello, {name}, 304 department's student!")
+student_name = input("Введите имя студента 304 кафедры: ")
+print(f"Hello, {student_name}, 304 department's student!")
