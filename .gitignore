@@ -1,5 +1,13 @@
 db/
 incremental_db/
 greybox_tmp/
-output_files/
 simulation/
+*.vvp
+*.vcd
+*.rpt
+
+# Игнорируем всё в output_files, кроме прошивки и выбранных отчетов
+output_files/*
+!output_files/lab1.sof
+!output_files/lab1.fit.rpt
+!output_files/lab1.sta.rpt
